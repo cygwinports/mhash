@@ -1,0 +1,7 @@
+category: Libs
+requires: cygwin
+external-source: mhash
+sdesc: "Multiple hash algorithm library (runtime)"
+ldesc: "Mhash is a free library which provides a uniform interface to a 
+large number of hash algorithms. These algorithms can be used to compute 
+checksums, message digests, and other signatures."
