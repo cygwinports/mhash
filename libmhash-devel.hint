@@ -1,5 +1,5 @@
 category: Libs
-requires: cygwin libmhash2
+requires: libmhash2
 external-source: mhash
 sdesc: "Multiple hash algorithm library (development)"
 ldesc: "Mhash is a free library which provides a uniform interface to a 
