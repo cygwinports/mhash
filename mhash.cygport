@@ -26,6 +26,12 @@ PKG_NAMES="lib${NAME}2 lib${NAME}-devel"
 libmhash2_CONTENTS="usr/bin/cygmhash-2.dll usr/share/doc/"
 libmhash_devel_CONTENTS='usr/include/ usr/lib/ usr/share/man/man3/'
 
+if defined ARCH_i686; then
+PKG_NAMES+=" mhash"
+mhash_CATEGORY="_obsolete"
+mhash_REQUIRES="libmhash2"
+fi
+
 DISTCLEANFILES="config.status libtool"
 
 DOCS="doc/skid2-authentication"
